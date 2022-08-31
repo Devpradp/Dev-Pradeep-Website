@@ -19,17 +19,17 @@
     box-sizing: border-box;
 }
 
-body {
+.body {
     min-height: 100vh;
     font-family: Montserrat;
     background: var(--white-color);
     transition: .3s;
 }
 
-a {
+.a {
     text-decoration: none;
 }
 
-ul {
+.ul {
     list-style: none;
 }
