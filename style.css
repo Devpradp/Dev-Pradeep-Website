@@ -242,8 +242,61 @@ ul {
     transform: scale(1.15);
 }
 
-/* Black Styles */
+/* Dark Mode Styles */
 body.is-black {
     background: var(--invert-bg-color);
+}
+
+.is-black .header {
+    background: var(--invert-bg-color);
+    box-shadow: 0px -2px 10px rgba(0,0,0,.5);
+}
+
+.is-black .header__logo {
+    color: var(--invert-text-color);
+}
+
+.is-black .header-menu__link {
+    color: var(--invert-text-color);
+}
+
+.is-black .header-menu__link::after {
+    background: var(--invert-primary-color);
+}
+
+.is-black .header__moon {
+    color: var(--invert-text-color);
+}
+
+.is-black .intro__title {
+    color: var(--invert-text-color);
+}
+
+.is-black .intro__title span {
+    color: var(--invert-primary-color);
+}
+
+.is-black .intro__text {
+    color: var(--invert-text-color);
+}
+
+.is-black .btn {
+    color: var(--invert-primary-color);
+    border-color: var(--invert-primary-color);
+}
+
+.is-black .btn:hover {
+    background: var(--invert-primary-color);
+    color: var(--white-color);
+}
+
+.is-black .intro-soc__link {
+    color: var(--invert-primary-color);
+    border-color: var(--invert-primary-color);
+}
+
+.is-black .intro-soc__link:hover {
+    background: var(--invert-primary-color);
+    color: var(--white-color);
 }
 
