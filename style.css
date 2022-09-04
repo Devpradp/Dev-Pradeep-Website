@@ -242,4 +242,8 @@ ul {
     transform: scale(1.15);
 }
 
+/* Black Styles */
+body.is-black {
+    background: var(--invert-bg-color);
+}
 
