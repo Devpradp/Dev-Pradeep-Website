@@ -6,3 +6,4 @@ document.querySelector('.header__mob-menu').onclick = function() {
     document.querySelector('.header-menu').classList.toggle('is-active');
 }
 
+
