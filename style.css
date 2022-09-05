@@ -3,11 +3,11 @@
 
 /* Variables */
 :root {
-    --primary-color: #6500FF;
+    --primary-color: #1434A4;
     --white-color: #FFFFFF;
     --text-color: #484848;
     --gray-color: #888888;
-    --invert-primary-color: #9855FF;
+    --invert-primary-color: #4169E1;
     --invert-text-color: #FFFFFF;
     --invert-bg-color: #2B3137;
 }
@@ -298,6 +298,10 @@ body.is-black {
 .is-black .intro-soc__link:hover {
     background: var(--invert-primary-color);
     color: var(--white-color);
+}
+
+.is-black .header__mob-menu {
+    color: var(--invert-text-color);
 }
 
 /* Media Queries */
