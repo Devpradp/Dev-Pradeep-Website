@@ -415,6 +415,8 @@ body.is-black {
     color: var(--invert-text-color);
 }
 
+
+
 /* Media Queries */
 
 @media (max-width: 1023px) {
