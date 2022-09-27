@@ -329,6 +329,12 @@ ul {
     margin-bottom: 0.5rem;
 }
 
+/* Projects Page */
+#projects {
+    font-family: Montserrat;
+    color: var(--text-color);
+}
+
 /* Dark Mode Styles */
 body.is-black {
     background: var(--invert-bg-color);
@@ -415,7 +421,9 @@ body.is-black {
     color: var(--invert-text-color);
 }
 
-
+.is-black #projects {
+    color: var(--invert-text-color);
+}
 
 /* Media Queries */
 
