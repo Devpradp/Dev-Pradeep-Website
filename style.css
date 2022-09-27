@@ -301,18 +301,7 @@ ul {
     text-align: center;
     color: var(--text-color);
     padding: 1rem;
-    position: relative;
-}
-
-.header__skills:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 100px;
-    background-color: var(--primary-color);
+    position: static;
 }
 
 .skills-container {
@@ -339,7 +328,6 @@ ul {
     padding: 0.5rem;
     margin-bottom: 0.5rem;
 }
-
 
 /* Dark Mode Styles */
 body.is-black {
@@ -421,10 +409,6 @@ body.is-black {
 
 .is-black .header__skills {
     color: var(--invert-text-color);
-}
-
-.is-black .header__skills:after {
-    background-color: var(--invert-primary-color);
 }
 
 .is-black .skill-box {
